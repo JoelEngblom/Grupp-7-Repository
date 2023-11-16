@@ -1,10 +1,19 @@
 /*  sass --watch style.scss style.css */
 
+#get-in-touch {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 5%;
+}
 h2 {
     color: black;
     font-family: 'Playfair display', sans-serif;
     font-size: 19px;
     font-weight: bold;
+}
+
+body {
+    margin: auto;
 }
 
 p {
@@ -13,3 +22,39 @@ p {
     font-size: 14px;
     font-weight: normal;
 }
+
+.Subheader-index {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.index-top-img {
+    width: 100%;
+    margin: 0%;
+}
+.info-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 3%;
+}
+.contact-box{
+    ul {
+        display: inline;
+        list-style-type: none; 
+        padding: 0;
+        margin: 0;
+    }
+    h3, li {
+        display: block;
+        margin-bottom: 15px; 
+    }
+}
+
+
+
+
