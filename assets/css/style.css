@@ -565,19 +565,12 @@ p {
 }
 
 .Subheader-index {
-  margin-left: 5%;
-  margin-right: 5%;
   margin-top: 1%;
   display: flex;
   justify-content: space-between;
 }
 
 .index-top-img {
-  width: 100%;
-  margin: 0%;
-}
-
-.hejhej {
   width: 100%;
   margin: 0%;
 }
