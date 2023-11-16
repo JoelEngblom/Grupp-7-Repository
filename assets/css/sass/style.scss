@@ -3,6 +3,8 @@ Name: Google News SASS
 Version: 1.0
 */
 
+/* sass --watch style.scss ../style.css */
+
 @import "colors.scss"; /*Colors SASS file*/
 @import "mixin.scss"; /*Mixin SASS file*/
 @import "fonts.scss"; /*Fonts SASS file*/
@@ -69,17 +71,11 @@ body {
 
 
 
-/*  sass --watch style.scss style.css */
-
 h2 {
     color: black;
     font-family: 'Playfair display', sans-serif;
     font-size: 19px;
     font-weight: bold;
-}
-
-body {
-    margin: auto;
 }
 
 p {
@@ -90,54 +86,13 @@ p {
 }
 
 .Subheader-index {
-    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
     display: flex;
     justify-content: space-between;
 }
 
 .index-top-img {
     width: 100%;
-    margin: 0%;
 } 
-
-#get-in-touch{
-  display: flex;
-  flex-direction: column;
-  margin: 3% 5%;
-}
-.info-row{
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 3%;
-  margin-top: 3%;
-}
-.contact-box{
-  ul {
-      display: inline;
-      list-style-type: none; 
-      padding: 0;
-      margin: 0;
-  }
-  h3, li {
-      display: block;
-      margin-bottom: 15px; 
-  }
-}
-
-.footer{
-  display: flex;
-  justify-content: space-between;
-  padding: 5% 0;
-  border-top: solid 1px black;
-}
-
-.footer-article h3 {
-  margin-bottom: 10px; /* Justera mellanrummet nedåt */
-}
-.footer-article ul {
-  padding-top: 10px; /* Justera mellanrummet uppåt */
-  margin: 0; /* Återställ standardmarginaler för <ul> */
-}
-
