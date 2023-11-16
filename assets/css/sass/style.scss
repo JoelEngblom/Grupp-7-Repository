@@ -3,6 +3,8 @@ Name: Google News SASS
 Version: 1.0
 */
 
+/* sass --watch style.scss ../style.css */
+
 @import "colors.scss"; /*Colors SASS file*/
 @import "mixin.scss"; /*Mixin SASS file*/
 @import "fonts.scss"; /*Fonts SASS file*/
@@ -69,8 +71,6 @@ body {
 
 
 
-/*  sass --watch style.scss style.css */
-
 h2 {
     color: black;
     font-family: 'Playfair display', sans-serif;
@@ -100,9 +100,4 @@ p {
 .index-top-img {
     width: 100%;
     margin: 0%;
-} 
-
-.hejhej {
-  width: 100%;
-  margin: 0%;
 } 
