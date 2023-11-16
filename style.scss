@@ -1,6 +1,21 @@
 /*  sass --watch style.scss style.css */
+
+h2 {
+    color: black;
+    font-family: 'Playfair display', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
 body {
     margin: auto;
+}
+
+p {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
 }
 
 .Subheader-index {
