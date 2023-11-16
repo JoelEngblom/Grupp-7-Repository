@@ -587,6 +587,7 @@ p {
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 3%;
+  margin-top: 3%;
 }
 
 .contact-box ul {
