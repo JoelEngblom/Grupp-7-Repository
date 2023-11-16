@@ -5,6 +5,37 @@
   margin: 3% 5%;
 }
 
+h2 {
+  color: black;
+  font-family: "Playfair display", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+body {
+  margin: auto;
+}
+
+p {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.Subheader-index {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.index-top-img {
+  width: 100%;
+  margin: 0%;
+}
+
 .info-row {
   display: flex;
   width: 100%;
