@@ -1,4 +1,17 @@
 /*  sass --watch style.scss style.css */
 body {
-    background-color: purple;
+    margin: auto;
+}
+
+.Subheader-index {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.index-top-img {
+    width: 100%;
+    margin: 0%;
 }
