@@ -553,10 +553,6 @@ h2 {
   font-weight: bold;
 }
 
-body {
-  margin: auto;
-}
-
 p {
   color: black;
   font-family: "Open Sans", sans-serif;
@@ -574,7 +570,6 @@ p {
 
 .index-top-img {
   width: 100%;
-  margin: 0%;
 }
 
 /*# sourceMappingURL=style.css.map */
