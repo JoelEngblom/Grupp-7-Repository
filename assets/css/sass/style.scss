@@ -5,6 +5,9 @@ Version: 1.0
 
 /* sass --watch style.scss ../style.css */
 
+/* ----- Variables ----- */
+$line-color: rgb(153, 153, 153);
+
 @import "colors.scss"; /*Colors SASS file*/
 @import "mixin.scss"; /*Mixin SASS file*/
 @import "fonts.scss"; /*Fonts SASS file*/
@@ -126,7 +129,7 @@ h1 {
 }
 
 #get-in-touch-border{
-  border-bottom: solid 1px #999999;
+  border-bottom: solid 1px $line-color;
 }
 .info-row{
   display: flex;
@@ -158,7 +161,7 @@ h1 {
   margin-right: 5%;
 }
 .footer{
-  border-top: solid 1px #999999;
+  border-top: solid 1px $line-color;
 }
 .footer-article h3 {
   margin-bottom: 10px; /* Justera mellanrummet nedåt */
@@ -178,6 +181,7 @@ h1 {
   display: flex;
   flex-direction: column;
   margin: 5%;
+  padding-top: 3%;
   justify-content: space-between;
 }
 

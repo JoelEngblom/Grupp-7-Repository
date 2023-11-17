@@ -4,6 +4,7 @@ Name: Google News SASS
 Version: 1.0
 */
 /* sass --watch style.scss ../style.css */
+/* ----- Variables ----- */
 /*COLORS*/
 /*Colors SASS file*/
 /*! MIXIN  */
@@ -603,7 +604,7 @@ h1 {
 }
 
 #get-in-touch-border {
-  border-bottom: solid 1px #999999;
+  border-bottom: solid 1px rgb(153, 153, 153);
 }
 
 .info-row {
@@ -635,7 +636,7 @@ h1 {
 }
 
 .footer {
-  border-top: solid 1px #999999;
+  border-top: solid 1px rgb(153, 153, 153);
 }
 
 .footer-article h3 {
@@ -657,6 +658,7 @@ h1 {
   display: flex;
   flex-direction: column;
   margin: 5%;
+  padding-top: 3%;
   justify-content: space-between;
 }
 
