@@ -3,6 +3,7 @@
 Name: Google News SASS
 Version: 1.0
 */
+/* sass --watch style.scss ../style.css */
 /*COLORS*/
 /*Colors SASS file*/
 /*! MIXIN  */
@@ -545,7 +546,6 @@ body {
   width: 100%;
 }
 
-/*  sass --watch style.scss style.css */
 h2 {
   margin-left: 5%;
   margin-right: 5%;
@@ -627,6 +627,38 @@ p {
 
 .Our-story {
   margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* ------- MEET THE TEAM ------- */
+.meet-the-team {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  justify-content: space-between;
+}
+
+.img-row-people {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5%;
+}
+
+#meet-the-team-h2 {
+  margin: 0;
+  margin-bottom: 2.5%;
+}
+
+.melissa-humble {
+  margin: 0;
+}
+
+.ceo {
+  margin-left: 0;
+}
+
+.person {
+  margin-bottom: 4%;
 }
 
 /*# sourceMappingURL=style.css.map */
