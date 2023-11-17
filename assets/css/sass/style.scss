@@ -130,13 +130,16 @@ p {
   }
 }
 
-.footer{
+.footer-row{
   display: flex;
   justify-content: space-between;
   padding: 5% 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.footer{
   border-top: solid 1px black;
 }
-
 .footer-article h3 {
   margin-bottom: 10px; /* Justera mellanrummet nedåt */
 }
@@ -144,8 +147,10 @@ p {
   padding-top: 10px; /* Justera mellanrummet uppåt */
   margin: 0; /* Återställ standardmarginaler för <ul> */
 }
-
 .Our-story {
   margin-top: 5%;
 }
+
+
+  
 
