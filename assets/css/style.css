@@ -602,6 +602,10 @@ h1 {
   margin: 3% 5%;
 }
 
+#get-in-touch-border {
+  border: solid 1px #999999;
+}
+
 .info-row {
   display: flex;
   width: 100%;
@@ -631,7 +635,7 @@ h1 {
 }
 
 .footer {
-  border-top: solid 1px black;
+  border-top: solid 1px #999999;
 }
 
 .footer-article h3 {
