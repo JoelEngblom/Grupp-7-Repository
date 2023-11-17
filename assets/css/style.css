@@ -517,6 +517,14 @@ body {
   color: black;
 }
 
+#google-news {
+  margin-left: 5%;
+}
+
+.menu {
+  margin-left: 5%;
+}
+
 @media screen and (max-width: 1024px) {
   /*All Devices*/
   html.touch *:hover {
