@@ -3,6 +3,7 @@
 Name: Google News SASS
 Version: 1.0
 */
+/* sass --watch style.scss ../style.css */
 /*COLORS*/
 /*Colors SASS file*/
 /*! MIXIN  */
@@ -504,7 +505,7 @@ html {
 }
 
 body {
-  width: 90%;
+  width: 100%;
   overflow-x: hidden;
   display: block;
   clear: both;
@@ -545,16 +546,15 @@ body {
   width: 100%;
 }
 
-/*  sass --watch style.scss style.css */
+.article-our-story {
+  margin-top: 2%;
+}
+
 h2 {
   color: black;
   font-family: "Playfair display", sans-serif;
   font-size: 19px;
   font-weight: bold;
-}
-
-body {
-  margin: auto;
 }
 
 p {
@@ -565,56 +565,21 @@ p {
 }
 
 .Subheader-index {
-  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
   display: flex;
   justify-content: space-between;
+}
+
+h1 {
+  font-family: "Playfair display", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
 }
 
 .index-top-img {
   width: 100%;
-  margin: 0%;
-}
-
-#get-in-touch {
-  display: flex;
-  flex-direction: column;
-  margin: 3% 5%;
-}
-
-.info-row {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 3%;
-  margin-top: 3%;
-}
-
-.contact-box ul {
-  display: inline;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-.contact-box h3, .contact-box li {
-  display: block;
-  margin-bottom: 15px;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 5% 0;
-  border-top: solid 1px black;
-}
-
-.footer-article h3 {
-  margin-bottom: 10px; /* Justera mellanrummet nedåt */
-}
-
-.footer-article ul {
-  padding-top: 10px; /* Justera mellanrummet uppåt */
-  margin: 0; /* Återställ standardmarginaler för <ul> */
 }
 
 /*# sourceMappingURL=style.css.map */
