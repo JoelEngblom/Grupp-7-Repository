@@ -77,8 +77,9 @@ body {
 
 
 
-
-
+.article-our-story {
+  margin-top: 2%;
+}
 
 h2 {
     margin-left: 5%;
@@ -102,11 +103,16 @@ p {
 .Subheader-index {
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 3%;
+    margin-top: 2%;
     display: flex;
     justify-content: space-between;
 }
 
+h1 {
+  font-family: 'Playfair display', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
 
 .index-top-img {
     width: 100%;
@@ -192,6 +198,3 @@ p {
 .person{
   margin-bottom: 4%;
 }
-
-
-
