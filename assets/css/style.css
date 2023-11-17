@@ -604,10 +604,15 @@ p {
   margin-bottom: 15px;
 }
 
-.footer {
+.footer-row {
   display: flex;
   justify-content: space-between;
   padding: 5% 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.footer {
   border-top: solid 1px black;
 }
 
