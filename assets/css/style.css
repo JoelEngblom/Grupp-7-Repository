@@ -517,6 +517,14 @@ body {
   color: black;
 }
 
+#google-news {
+  margin-left: 5%;
+}
+
+.menu {
+  margin-left: 5%;
+}
+
 @media screen and (max-width: 1024px) {
   /*All Devices*/
   html.touch *:hover {
@@ -546,6 +554,10 @@ body {
   width: 100%;
 }
 
+.article-our-story {
+  margin-top: 2%;
+}
+
 h2 {
   margin-left: 5%;
   margin-right: 5%;
@@ -568,29 +580,19 @@ p {
 .Subheader-index {
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 3%;
+  margin-top: 2%;
   display: flex;
   justify-content: space-between;
+}
+
+h1 {
+  font-family: "Playfair display", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
 }
 
 .index-top-img {
   width: 100%;
-  margin: 0%;
-}
-
-#get-in-touch {
-  display: flex;
-  flex-direction: column;
-  margin: 3% 5%;
-}
-
-.info-row {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 3%;
-  margin-top: 3%;
 }
 
 .contact-box ul {
