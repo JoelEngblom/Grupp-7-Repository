@@ -3,7 +3,6 @@
 Name: Google News SASS
 Version: 1.0
 */
-/* sass --watch style.scss ../style.css */
 /*COLORS*/
 /*Colors SASS file*/
 /*! MIXIN  */
@@ -505,7 +504,7 @@ html {
 }
 
 body {
-  width: 90%;
+  width: 100%;
   overflow-x: hidden;
   display: block;
   clear: both;
@@ -546,7 +545,10 @@ body {
   width: 100%;
 }
 
+/*  sass --watch style.scss style.css */
 h2 {
+  margin-left: 5%;
+  margin-right: 5%;
   color: black;
   font-family: "Playfair display", sans-serif;
   font-size: 19px;
@@ -554,6 +556,9 @@ h2 {
 }
 
 p {
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
   color: black;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -561,6 +566,8 @@ p {
 }
 
 .Subheader-index {
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 3%;
   display: flex;
   justify-content: space-between;
@@ -568,8 +575,6 @@ p {
 
 .index-top-img {
   width: 100%;
-<<<<<<< HEAD
-=======
   margin: 0%;
 }
 
@@ -613,7 +618,10 @@ p {
 .footer-article ul {
   padding-top: 10px; /* Justera mellanrummet uppåt */
   margin: 0; /* Återställ standardmarginaler för <ul> */
->>>>>>> main
+}
+
+.Our-story {
+  margin-top: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
