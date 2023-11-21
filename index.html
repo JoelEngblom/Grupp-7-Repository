@@ -20,7 +20,7 @@
             <a href="/Offerings">What we do</a>
           </li>
           <li>
-            <a href="/About-us" class="current">Who we are</a>
+            <a href="index.html" class="current">Who we are</a>
           </li>
           <li>
             <a href="/Customers">Customers</a>
@@ -52,12 +52,28 @@
         </ul>
       </nav>
     </header>
-    <img
+  <!--   <img
       class="index-top-img"
       src="assets/image/index-header_img.png"
       alt="A man reading a newspaper."
       width="100%"
-    />
+    /> -->
+
+    <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev">&#10094;</button>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img src="assets/image/index-header_img.png" alt="A man reading a newspaper." width="100%">
+        </li>
+        <li class="slide">
+          <img src="assets/image/contact-header_img.png" alt="beautiful modern building modern architecture" width="100%">
+        </li>
+        <li class="slide">
+          <img src="assets/image/Map.png" alt="Map" width="100%">
+        </li>
+      </ul>
+      <button class="carousel-button next" data-carousel-button="next">&#10095;</button>
+    </div>
 
     <section class="Subheader-index">
       <div class="Subheader-element">
@@ -191,4 +207,7 @@
     </section>
     </footer>
   </body>
+
+<script src="assets/js/carousel.js"></script>
+
 </html>
