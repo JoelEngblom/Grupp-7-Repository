@@ -709,8 +709,8 @@ h1 {
   transform: translateY(-50%);
   background: none;
   border: none;
-  font-size: 2rem;
-  color: rgba(0, 0, 0, 0.4);
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
   z-index: 2;
 }
@@ -721,6 +721,11 @@ h1 {
 
 .carousel-button.next {
   right: 1rem;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0.4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
