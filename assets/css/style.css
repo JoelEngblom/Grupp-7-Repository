@@ -3,6 +3,8 @@
 Name: Google News SASS
 Version: 1.0
 */
+/* sass --watch style.scss ../style.css */
+/* ----- Variables ----- */
 /*COLORS*/
 /*Colors SASS file*/
 /*! MIXIN  */
@@ -516,6 +518,14 @@ body {
   color: black;
 }
 
+#google-news {
+  margin-left: 5%;
+}
+
+.menu {
+  margin-left: 5%;
+}
+
 @media screen and (max-width: 1024px) {
   /*All Devices*/
   html.touch *:hover {
@@ -545,7 +555,10 @@ body {
   width: 100%;
 }
 
-/*  sass --watch style.scss style.css */
+.article-our-story {
+  margin-top: 5%;
+}
+
 h2 {
   margin-left: 5%;
   margin-right: 5%;
@@ -568,9 +581,15 @@ p {
 .Subheader-index {
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 3%;
+  margin-top: 2%;
   display: flex;
   justify-content: space-between;
+}
+
+h1 {
+  font-family: "Playfair display", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
 }
 
 .index-top-img {
@@ -582,6 +601,10 @@ p {
   display: flex;
   flex-direction: column;
   margin: 3% 5%;
+}
+
+#get-in-touch-border {
+  border-bottom: solid 1px rgb(153, 153, 153);
 }
 
 .info-row {
@@ -604,11 +627,16 @@ p {
   margin-bottom: 15px;
 }
 
-.footer {
+.footer-row {
   display: flex;
   justify-content: space-between;
   padding: 5% 0;
-  border-top: solid 1px black;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.footer {
+  border-top: solid 1px rgb(153, 153, 153);
 }
 
 .footer-article h3 {
@@ -622,6 +650,39 @@ p {
 
 .Our-story {
   margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* ------- MEET THE TEAM ------- */
+.meet-the-team {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  padding-top: 3%;
+  justify-content: space-between;
+}
+
+.img-row-people {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5%;
+}
+
+#meet-the-team-h2 {
+  margin: 0;
+  margin-bottom: 2.5%;
+}
+
+.melissa-humble {
+  margin: 0;
+}
+
+.ceo {
+  margin-left: 0;
+}
+
+.person {
+  margin-bottom: 4%;
 }
 
 /*# sourceMappingURL=style.css.map */
