@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Playfair+Display:400,700" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <script src="assets/js/carousel.js" defer></script>
   </head>
   <body>
     <!--Header-->
@@ -20,7 +21,7 @@
             <a href="/Offerings">What we do</a>
           </li>
           <li>
-            <a href="/About-us" class="current">Who we are</a>
+            <a href="index.html" class="current">Who we are</a>
           </li>
           <li>
             <a href="/Customers">Customers</a>
@@ -52,12 +53,28 @@
         </ul>
       </nav>
     </header>
-    <img
+  <!--   <img
       class="index-top-img"
       src="assets/image/index-header_img.png"
       alt="A man reading a newspaper."
       width="100%"
-    />
+    /> -->
+
+    <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev">&#10094;</button>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img src="assets/image/index-header_img.png" alt="A man reading a newspaper." width="100%">
+        </li>
+        <li class="slide">
+          <img src="assets/image/contact-header_img.png" alt="beautiful modern building modern architecture" width="100%">
+        </li>
+        <li class="slide">
+          <img src="assets/image/Map.png" alt="Map" width="100%">
+        </li>
+      </ul>
+      <button class="carousel-button next" data-carousel-button="next">&#10095;</button>
+    </div>
 
     <section class="Subheader-index">
       <div class="Subheader-element">
@@ -100,64 +117,64 @@
       <h2 id="meet-the-team-h2">Meet the team</h2>
       <div class="img-row-people">
         <article class="CEO-card">
-          <img src="assets/image/person1.png" class="person"/>
+          <img src="assets/image/person1.png" alt="Picture of the CEO" class="person"/>
           <h2 class="melissa-humble">Melissa Humble</h2>
           <p class="ceo">CEO</p>
         </article>
         <article class="CEO-card">
-          <img src="assets/image/person2.png" class="person"/>
+          <img src="assets/image/person2.png" alt="Picture of the CEO" class="person"/>
           <h2 class="melissa-humble">Melissa Humble</h2>
           <p class="ceo">CEO</p>
         </article>
         <article class="CEO-card">
-          <img src="assets/image/person1.png" class="person"/>
+          <img src="assets/image/person1.png" alt="Picture of the CEO" class="person"/>
           <h2 class="melissa-humble">Melissa Humble</h2>
           <p class="ceo">CEO</p>
         </article>
         <article class="CEO-card">
-          <img src="assets/image/person2.png" class="person"/>
+          <img src="assets/image/person2.png" alt="Picture of the CEO" class="person"/>
           <h2 class="melissa-humble">Melissa Humble</h2>
           <p class="ceo">CEO</p>
         </article>
         <article class="CEO-card">
-          <img src="assets/image/person1.png" class="person"/>
+          <img src="assets/image/person1.png" alt="Picture of the CEO" class="person"/>
           <h2 class="melissa-humble">Melissa Humble</h2>
           <p class="ceo">CEO</p>
         </article>
         <article class="CEO-card">
-          <img src="assets/image/person2.png" class="person"/>
+          <img src="assets/image/person2.png" alt="Picture of the CEO" class="person"/>
           <h2 class="melissa-humble">Melissa Humble</h2>
           <p class="ceo">CEO</p>
         </article>
       </div>
       <div class="img-row-people">
         <article class="CEO-card">
-          <img src="assets/image/person1.png" class="person"/>
+          <img src="assets/image/person1.png" alt="Picture of the CEO" class="person"/>
           <h2 class="melissa-humble">Melissa Humble</h2>
           <p class="ceo">CEO</p>
         </article>
         <article class="CEO-card">
-          <img src="assets/image/person2.png" class="person"/>
+          <img src="assets/image/person2.png" alt="Picture of the CEO" class="person"/>
           <h2 class="melissa-humble">Melissa Humble</h2>
           <p class="ceo">CEO</p>
         </article>
         <article class="CEO-card">
-          <img src="assets/image/person1.png" class="person"/>
+          <img src="assets/image/person1.png" alt="Picture of the CEO" class="person"/>
           <h2 class="melissa-humble">Melissa Humble</h2>
           <p class="ceo">CEO</p>
         </article>
         <article class="CEO-card">
-          <img src="assets/image/person2.png" class="person"/>
+          <img src="assets/image/person2.png" alt="Picture of the CEO" class="person"/>
           <h2 class="melissa-humble">Melissa Humble</h2>
           <p class="ceo">CEO</p>
         </article>
         <article class="CEO-card">
-          <img src="assets/image/person1.png" class="person"/>
+          <img src="assets/image/person1.png" alt="Picture of the CEO" class="person"/>
           <h2 class="melissa-humble">Melissa Humble</h2>
           <p class="ceo">CEO</p>
         </article>
         <article class="CEO-card">
-          <img src="assets/image/person2.png" class="person"/>
+          <img src="assets/image/person2.png" alt="Picture of the CEO" class="person"/>
           <h2 class="melissa-humble">Melissa Humble</h2>
           <p class="ceo">CEO</p>
         </article>
@@ -190,5 +207,6 @@
       <div>Copyright 2022 Google News</div>
     </section>
     </footer>
+  
   </body>
 </html>
