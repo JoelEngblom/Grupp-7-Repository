@@ -237,6 +237,8 @@ h1 {
   color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
   z-index: 2;
+  border: 1px solid white;
+  border-radius: .4rem;
 }
 
 .carousel-button.prev {
