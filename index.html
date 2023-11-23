@@ -1,194 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-        <!--Stylesheets-->
+    <meta charset="utf-8">
+    <title>Google News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Stylesheets-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Playfair+Display:400,700" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
   </head>
   <body>
-    <!--Header-->
-    <header id="header" class="header">
-      <h1 id="google-news">Google News</h1>
-      <!--Menu-->
-      <nav id="menu" class="menu">
-        <ul>
-          <li>
-            <a href="/Offerings">What we do</a>
-          </li>
-          <li>
-            <a href="/About-us" class="current">Who we are</a>
-          </li>
-          <li>
-            <a href="/Customers">Customers</a>
-          </li>
-          <li>
-            <a href="/Careers">Career</a>
-          </li>
-          <li>
-            <a href="/Investor-relations">IR</a>
-          </li>
-          <li>
-            <a href="/Latest">Latest</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
-          </li>
-          <li class="search">
-            <input
-              type="text"
-              id="searchInput"
-              onkeyup="searchFunction()"
-              placeholder="Search titles"
-              title="Type in title search term"
-            />
-          </li>
-          <li class="icon">
-            <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <img
-      class="index-top-img"
-      src="assets/image/index-header_img.png"
-      alt="A man reading a newspaper."
-      width="100%"
-    />
+    <section role="main" id="wrapper">
+      <!--Header-->
+      <header id="header" class="header">
+        <a href="index.html">
+            <h1 id="google-news">Google News</h1>
+        </a>
+        <!--Menu-->
+        <nav id="menu" class="menu">
+          <ul>
+            <li>
+              <a href="/Offerings">What we do</a>
+            </li>
+            <li>
+              <a href="who_we_are.html">Who we are</a>
+            </li>
+            <li>
+              <a href="/Customers">Customers</a>
+            </li>
+            <li>
+              <a href="/Careers">Career</a>
+            </li>
+            <li>
+              <a href="/Investor-relations">IR</a>
+            </li>
+            <li>
+              <a href="/Latest" class="current">Latest</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li class="search">
+              <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search titles" title="Type in title search term">
+            </li>
+            <li class="icon">
+              <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-    <section class="Subheader-index">
-      <div class="Subheader-element">
-        <h1>5000</h1>
-        <h1>People employed</h1>
-      </div>
+      <section id="content"></section>
 
-      <div class="Subheader-element">
-        <h1>1967</h1>
-        <h1>Year founded</h1>
-      </div>
+      <footer>
+        <!--Wather widget-->
+        <script> !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');</script>
+        <!--JS Scripts-->
+        <script type="text/javascript" src="./assets/js/menu.js"></script> <!--Mobile menu JS-->
+        <script type="text/javascript" src="./assets/js/request.js"></script> <!--JSON API request JS-->
 
-      <div class="Subheader-element">
-        <h1>50+</h1>
-        <h1>Countries with subscribers</h1>
-      </div>
+      </footer>
 
-      <div class="Subheader-element">
-        <h1>100</h1>
-        <h1>News per day</h1>
-      </div>
+      <footer class="footer">
+        <section class="footer-row">
+        <article class="footer-article">
+          <h3>About Us</h3>
+          <ul>
+            <li>What we do</li>
+            <li>Who we are</li>
+          </ul>
+        </article>
+        <article class="footer-article">
+          <h3>About You</h3>
+          <ul>
+            <li>Customers</li>
+            <li>Latest</li>
+          </ul>
+        </article>
+        <article class="footer-article">
+          <h3>Adress</h3>
+          <ul>
+            <li>Google street 2,</li>
+            <li>526 42 Googleville</li>
+          </ul>
+        </article>
+        <div>Copyright 2022 Google News</div>
+      </section>
+      </footer>
+
     </section>
-
-    <article class="article-our-story">
-      <h2>Our story</h2>
-      <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae abillo inventore veritatis et quasi architecto beatae vitae dicta suntexplicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit aut fugit.
-      </p>
-
-      <p>
-        Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sitamet, consectetur, adipisci velit, sed quia non numquam eius moditempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-      </p>
-
-      <p>
-        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-      </p>
-    </article>
-
-    <section class="meet-the-team">
-      <h2 id="meet-the-team-h2">Meet the team</h2>
-      <div class="img-row-people">
-        <article class="CEO-card">
-          <img src="assets/image/person1.png" class="person"/>
-          <h2 class="melissa-humble">Melissa Humble</h2>
-          <p class="ceo">CEO</p>
-        </article>
-        <article class="CEO-card">
-          <img src="assets/image/person2.png" class="person"/>
-          <h2 class="melissa-humble">Melissa Humble</h2>
-          <p class="ceo">CEO</p>
-        </article>
-        <article class="CEO-card">
-          <img src="assets/image/person1.png" class="person"/>
-          <h2 class="melissa-humble">Melissa Humble</h2>
-          <p class="ceo">CEO</p>
-        </article>
-        <article class="CEO-card">
-          <img src="assets/image/person2.png" class="person"/>
-          <h2 class="melissa-humble">Melissa Humble</h2>
-          <p class="ceo">CEO</p>
-        </article>
-        <article class="CEO-card">
-          <img src="assets/image/person1.png" class="person"/>
-          <h2 class="melissa-humble">Melissa Humble</h2>
-          <p class="ceo">CEO</p>
-        </article>
-        <article class="CEO-card">
-          <img src="assets/image/person2.png" class="person"/>
-          <h2 class="melissa-humble">Melissa Humble</h2>
-          <p class="ceo">CEO</p>
-        </article>
-      </div>
-      <div class="img-row-people">
-        <article class="CEO-card">
-          <img src="assets/image/person1.png" class="person"/>
-          <h2 class="melissa-humble">Melissa Humble</h2>
-          <p class="ceo">CEO</p>
-        </article>
-        <article class="CEO-card">
-          <img src="assets/image/person2.png" class="person"/>
-          <h2 class="melissa-humble">Melissa Humble</h2>
-          <p class="ceo">CEO</p>
-        </article>
-        <article class="CEO-card">
-          <img src="assets/image/person1.png" class="person"/>
-          <h2 class="melissa-humble">Melissa Humble</h2>
-          <p class="ceo">CEO</p>
-        </article>
-        <article class="CEO-card">
-          <img src="assets/image/person2.png" class="person"/>
-          <h2 class="melissa-humble">Melissa Humble</h2>
-          <p class="ceo">CEO</p>
-        </article>
-        <article class="CEO-card">
-          <img src="assets/image/person1.png" class="person"/>
-          <h2 class="melissa-humble">Melissa Humble</h2>
-          <p class="ceo">CEO</p>
-        </article>
-        <article class="CEO-card">
-          <img src="assets/image/person2.png" class="person"/>
-          <h2 class="melissa-humble">Melissa Humble</h2>
-          <p class="ceo">CEO</p>
-        </article>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <section class="footer-row">
-      <article class="footer-article">
-        <h3>About Us</h3>
-        <ul>
-          <li>What we do</li>
-          <li>Who we are</li>
-        </ul>
-      </article>
-      <article class="footer-article">
-        <h3>About You</h3>
-        <ul>
-          <li>Customers</li>
-          <li>Latest</li>
-        </ul>
-      </article>
-      <article class="footer-article">
-        <h3>Adress</h3>
-        <ul>
-          <li>Google street 2,</li>
-          <li>526 42 Googleville</li>
-        </ul>
-      </article>
-      <div>Copyright 2022 Google News</div>
-    </section>
-    </footer>
   </body>
 </html>

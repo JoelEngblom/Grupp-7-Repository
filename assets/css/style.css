@@ -4,6 +4,7 @@ Name: Google News SASS
 Version: 1.0
 */
 /* sass --watch style.scss ../style.css */
+/* ----- Variables ----- */
 /*COLORS*/
 /*Colors SASS file*/
 /*! MIXIN  */
@@ -555,7 +556,7 @@ body {
 }
 
 .article-our-story {
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 h2 {
@@ -603,7 +604,7 @@ h1 {
 }
 
 #get-in-touch-border {
-  border-bottom: solid 1px #999999;
+  border-bottom: solid 1px rgb(153, 153, 153);
 }
 
 .info-row {
@@ -635,7 +636,7 @@ h1 {
 }
 
 .footer {
-  border-top: solid 1px #999999;
+  border-top: solid 1px rgb(153, 153, 153);
 }
 
 .footer-article h3 {
@@ -657,6 +658,7 @@ h1 {
   display: flex;
   flex-direction: column;
   margin: 5%;
+  padding-top: 3%;
   justify-content: space-between;
 }
 
@@ -681,6 +683,51 @@ h1 {
 
 .person {
   margin-bottom: 4%;
+}
+
+/* ------ Carousel ------ */
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel > ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  z-index: 2;
+  border: 1px solid white;
+  border-radius: 0.4rem;
+}
+
+.carousel-button.prev {
+  left: 1rem;
+}
+
+.carousel-button.next {
+  right: 1rem;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0.4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
