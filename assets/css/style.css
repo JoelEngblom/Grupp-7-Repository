@@ -738,6 +738,10 @@ h1 {
     padding-top: 0;
     padding-bottom: 10px;
   }
+  .info-row {
+    flex-direction: column;
+    align-items: start;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
