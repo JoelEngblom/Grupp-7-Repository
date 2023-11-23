@@ -731,8 +731,12 @@ h1 {
 }
 
 @media screen and (max-width: 430px) {
-  h1 {
-    font-size: 20px;
+  .footer-row {
+    flex-direction: column;
+  }
+  .footer-article ul {
+    padding-top: 0;
+    padding-bottom: 10px;
   }
 }
 
