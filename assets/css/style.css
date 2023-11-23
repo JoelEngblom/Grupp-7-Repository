@@ -747,6 +747,10 @@ h1 {
     padding-top: 0;
     padding-bottom: 10px;
   }
+  .info-row {
+    flex-direction: column;
+    align-items: start;
+  }
   h1 {
     font-size: 18px;
   }
