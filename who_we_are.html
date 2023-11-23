@@ -8,53 +8,49 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Playfair+Display:400,700" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/sass/header.scss">
     <script src="assets/js/carousel.js" defer></script>
   </head>
   <body>
-    <!--Header-->
-    <header id="header" class="header">
-      <a href="index.html">
-        <h1 id="google-news">Google News</h1>
-      </a>
-      <!--Menu-->
-      <nav id="menu" class="menu">
-        <ul>
-          <li>
-            <a href="/Offerings">What we do</a>
-          </li>
-          <li>
-            <a href="who_we_are.html" class="current">Who we are</a>
-          </li>
-          <li>
-            <a href="/Customers">Customers</a>
-          </li>
-          <li>
-            <a href="/Careers">Career</a>
-          </li>
-          <li>
-            <a href="/Investor-relations">IR</a>
-          </li>
-          <li>
-            <a href="index.html">Latest</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
-          </li>
-          <li class="search">
-            <input
-              type="text"
-              id="searchInput"
-              onkeyup="searchFunction()"
-              placeholder="Search titles"
-              title="Type in title search term"
-            />
-          </li>
-          <li class="icon">
-            <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <section role="main" id="wrapper">
+      <!--Header-->
+      <header id="header" class="header">
+        <a href="index.html">
+            <h1 id="google-news">Google News</h1>
+        </a>
+        <!--Menu-->
+        <nav id="menu" class="menu">
+          <ul>
+            <li>
+              <a href="/Offerings">What we do</a>
+            </li>
+            <li>
+              <a href="who_we_are.html">Who we are</a>
+            </li>
+            <li>
+              <a href="/Customers">Customers</a>
+            </li>
+            <li>
+              <a href="/Careers">Career</a>
+            </li>
+            <li>
+              <a href="/Investor-relations">IR</a>
+            </li>
+            <li>
+              <a href="/Latest" class="current">Latest</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li class="search">
+              <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search titles" title="Type in title search term">
+            </li>
+            <li class="icon">
+              <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
   <!--   <img
       class="index-top-img"
       src="assets/image/index-header_img.png"
@@ -79,25 +75,29 @@
     </div>
 
     <section class="Subheader-index">
-      <div class="Subheader-element">
-        <h1>5000</h1>
-        <h1>People employed</h1>
+      
+      <div class="mobile-subhead">
+        <div class="Subheader-element">
+          <h1>5000</h1>
+          <h1>People employed</h1>
+        </div>
+        <div class="Subheader-element">
+          <h1>1967</h1>
+          <h1>Year founded</h1>
+        </div>
+      </div>
+      
+      <div class="mobile-subhead">
+        <div class="Subheader-element">
+          <h1>50+</h1>
+          <h1>Countries with subscribers</h1>
+        </div>
+        <div class="Subheader-element">
+          <h1>100</h1>
+          <h1>News per day</h1>
+        </div>
       </div>
 
-      <div class="Subheader-element">
-        <h1>1967</h1>
-        <h1>Year founded</h1>
-      </div>
-
-      <div class="Subheader-element">
-        <h1>50+</h1>
-        <h1>Countries with subscribers</h1>
-      </div>
-
-      <div class="Subheader-element">
-        <h1>100</h1>
-        <h1>News per day</h1>
-      </div>
     </section>
 
     <article class="article-our-story">
@@ -183,6 +183,15 @@
       </div>
     </section>
 
+    <footer>
+      <!--Wather widget-->
+      <script> !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');</script>
+      <!--JS Scripts-->
+      <script type="text/javascript" src="./assets/js/menu.js"></script> <!--Mobile menu JS-->
+      <script type="text/javascript" src="./assets/js/request.js"></script> <!--JSON API request JS-->
+
+    </footer>
+
     <footer class="footer">
       <section class="footer-row">
       <article class="footer-article">
@@ -209,6 +218,6 @@
       <div>Copyright 2022 Google News</div>
     </section>
     </footer>
-  
+  </section>
   </body>
 </html>
